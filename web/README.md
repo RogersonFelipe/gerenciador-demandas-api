@@ -1,6 +1,6 @@
-# Quasar App (klgama-web)
+# Gerenciador de Demandas - Web
 
-A Quasar Project
+Frontend do projeto Gerenciador de Demandas, construído com Quasar (Vue 3).
 
 ## Install the dependencies
 

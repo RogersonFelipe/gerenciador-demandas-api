@@ -1,12 +1,12 @@
-# KL Gama - Sistema de Demandas
+# Gerenciador de Demandas
 
-Sistema de gerenciamento de demandas com autenticação JWT e isolamento multi-tenant.
+Projeto pessoal de portfólio: sistema de gerenciamento de demandas com autenticação JWT e isolamento multi-tenant.
 
 ## Estrutura do Projeto
 
 ```
-klgama-api/          # Backend Node.js + Express
-klgama-web/          # Frontend Vue 3 + Quasar
+.               # Backend Node.js + Express (raiz do repositório)
+web/            # Frontend Vue 3 + Quasar
 README.md
 ```
 
@@ -18,19 +18,13 @@ README.md
 
 ## Setup do Backend
 
-1. Navegue até a pasta klgama-api:
-
-```bash
-cd klgama-api
-```
-
-2. Instale as dependências:
+1. Na raiz do repositório, instale as dependências:
 
 ```bash
 npm install
 ```
 
-3. Configure as variáveis de ambiente. Crie um arquivo `.env` na raiz:
+2. Configure as variáveis de ambiente. Crie um arquivo `.env` na raiz:
 
 ```
 SUPABASE_URL=https://seu-projeto.supabase.co
@@ -41,13 +35,13 @@ NODE_ENV=development
 PORT=3000
 ```
 
-4. Execute a seed para popular o banco:
+3. Execute a seed para popular o banco:
 
 ```bash
 npm run seed
 ```
 
-5. Inicie o servidor:
+4. Inicie o servidor:
 
 ```bash
 npm run dev
@@ -57,10 +51,10 @@ O servidor rodara em http://localhost:3000
 
 ## Setup do Frontend
 
-1. Em outra janela de terminal, navegue até klgama-web:
+1. Em outra janela de terminal, navegue até a pasta web:
 
 ```bash
-cd klgama-web
+cd web
 ```
 
 2. Instale as dependências:

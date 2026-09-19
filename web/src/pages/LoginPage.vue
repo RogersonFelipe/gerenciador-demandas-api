@@ -2,8 +2,8 @@
   <div class="login-container">
     <q-card class="login-card">
       <q-card-section class="text-center q-pa-lg">
-        <h1>KL Gama</h1>
-        <p class="text-subtitle1">Sistema de Demandas</p>
+        <h1>Gerenciador de Demandas</h1>
+        <p class="text-subtitle1">Sistema de gestão de demandas</p>
       </q-card-section>
 
       <q-separator />

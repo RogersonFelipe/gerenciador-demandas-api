@@ -3,7 +3,7 @@
     <!-- Header -->
     <q-header elevated class="bg-primary text-white">
       <q-toolbar>
-        <q-toolbar-title>KL Gama - Sistema de Demandas</q-toolbar-title>
+        <q-toolbar-title>Gerenciador de Demandas</q-toolbar-title>
         <div class="text-caption q-mr-md">{{ authStore.user?.nome }}</div>
         <q-btn flat round dense icon="logout" @click="handleLogout" title="Sair" />
       </q-toolbar>

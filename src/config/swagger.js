@@ -4,9 +4,9 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "KLGama API",
+      title: "Gerenciador de Demandas API",
       version: "1.0.0",
-      description: "Documentação da API KLGama",
+      description: "Documentação da API do Gerenciador de Demandas",
     },
     components: {
       securitySchemes: {
